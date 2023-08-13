@@ -27,12 +27,12 @@
   font-weight: 600;
   margin-bottom: min(67px, 5%);
 }
-@media (min-width: 621px) {
+@media (min-width: 665px) {
   .workflow-section-1 .schedule {
     font-size: 2.2rem;
   }
 }
-@media (max-width: 620px) {
+@media (max-width: 666px) {
   .workflow-section-1 .schedule {
     font-size: 1.7rem;
   }

@@ -47,10 +47,10 @@
 @mixin font-schedule {
   color: $default-2;
   font-weight: 600;
-  @media (min-width: 621px) {
+  @media (min-width: 665px) {
     font-size: 2.2rem;
   }
-  @media (max-width: 620px) {
+  @media (max-width: 666px) {
     font-size: 1.7rem;
   }
 }

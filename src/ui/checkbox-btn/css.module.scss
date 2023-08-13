@@ -1,5 +1,5 @@
 @import "../../scss/fonts.scss";
-// @import "../../scss/variables.scss";
+@import "../../scss/variables.scss";
 
 .checkbox-btn {
   display: flex;
@@ -12,6 +12,7 @@
     background: $blank;
     border-radius: 8px;
     border: 3px solid $gray-light;
+    cursor: pointer;
     > div {
       margin: auto;
     }

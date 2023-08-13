@@ -45,6 +45,7 @@ button {
   border: 3px solid #f3f5f7;
   background: #fff;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .slider {

@@ -13,8 +13,12 @@
       align-self: flex-end;
     }
   }
-  .interval {
+  .interval-div {
     @include font-interval;
+  }
+  .interval-input {
+    @include font-interval;
+    width: 80px;
   }
   .days {
     @include font-workflow-description;
@@ -25,5 +29,11 @@
     border: 3px solid $gray-light;
     background: $blank;
     border-radius: 3px;
+    cursor: pointer;
+
+    &.active {
+      border-color: $blue-1;
+      color: $blue-2;
+    }
   }
 }

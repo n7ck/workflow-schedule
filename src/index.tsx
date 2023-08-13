@@ -15,12 +15,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Background>
-      <MainContainer>
-        <WorkflowSection1 />
-        <WorkflowSection2 />
-        <WorkflowSection3 />
-        <WorkflowSection4 />
-      </MainContainer>
+      <MainContainer />
     </Background>
   </React.StrictMode>
 );
