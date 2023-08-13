@@ -1,0 +1,15 @@
+html {
+  /* All REM values based on this root font size 
+      375px width screen = 14px font
+      768px width screen = 18px font
+     1275px width sceen and up = 23px font */
+  font-size: min(10.25px + 1vw, 23px);
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #414e58;
+} /*# sourceMappingURL=global.css.map */

@@ -1,0 +1,26 @@
+/*
+    font-size Note:
+        All REM values based on the font-size of the font-root (a.k.a. <html> )
+        375px width screen = 14px font
+        768px width screen = 18px font
+        1275px width sceen and up = 23px font 
+*/
+.next-section {
+  display: flex;
+  justify-content: flex-end;
+  padding: min(28px, 4%) 45px;
+  border-top: 3px solid #f3f5f7;
+}
+.next-section button {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  padding: min(28px, 4%) 36px;
+  border-radius: 3px;
+  background: #2680bf;
+}
+.next-section button:hover {
+  background: #19639c;
+}/*# sourceMappingURL=css.module.css.map */

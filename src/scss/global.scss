@@ -1,0 +1,9 @@
+@import "scss/fonts.scss";
+
+html {
+  @include font-root;
+}
+
+body {
+  margin: 0;
+}

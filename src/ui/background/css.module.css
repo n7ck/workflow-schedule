@@ -1,0 +1,11 @@
+/* Theme Colors */
+/* Responsive Spacing */
+.background {
+  background-color: #f3f5f7;
+  padding: max(3%, 10px);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=css.module.css.map */

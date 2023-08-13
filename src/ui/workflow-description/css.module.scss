@@ -1,0 +1,12 @@
+@import "../../scss/fonts.scss";
+
+.workflow-description {
+  .title {
+    @include font-workflow-title;
+    margin-bottom: 10px;
+  }
+  .description {
+    @include font-workflow-description;
+    margin-bottom: $workflow-description;
+  }
+}

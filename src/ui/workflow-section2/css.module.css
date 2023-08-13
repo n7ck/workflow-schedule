@@ -1,0 +1,42 @@
+/* Theme Colors */
+/* Responsive Spacing */
+/*
+    font-size Note:
+        All REM values based on the font-size of the font-root (a.k.a. <html> )
+        375px width screen = 14px font
+        768px width screen = 18px font
+        1275px width sceen and up = 23px font 
+*/
+/* Theme Colors */
+/* Responsive Spacing */
+.workflow-section-2 {
+  background: #fff;
+  padding-top: min(60px, 5%);
+  padding-bottom: min(60px, 5%);
+}
+.workflow-section-2 .flex {
+  display: flex;
+  justify-content: space-between;
+}
+.workflow-section-2 .flex .flex-end {
+  align-self: flex-end;
+}
+.workflow-section-2 .interval {
+  font-size: 2.5rem;
+  color: #19639c;
+  font-weight: 600;
+}
+.workflow-section-2 .days {
+  font-size: 1rem;
+  color: #747d83;
+  font-weight: 600;
+}
+.workflow-section-2 button {
+  font-size: 1rem;
+  color: #747d83;
+  font-weight: 600;
+  padding: min(28px, 4%) 36px;
+  border: 3px solid #f3f5f7;
+  background: #fff;
+  border-radius: 3px;
+}/*# sourceMappingURL=css.module.css.map */

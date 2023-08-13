@@ -1,0 +1,23 @@
+@import "../../scss/variables.scss";
+
+.main-container {
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  width: 99%;
+  min-width: 360px;
+  max-width: 1200px;
+  border-radius: 20px 20px 5px 5px;
+  border-bottom-width: 7px;
+  border-bottom-color: $blue-3;
+  border-bottom-style: solid;
+  min-height: 90vh;
+  background-color: $blank;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .workflow {
+    display: flex;
+    flex-direction: column;
+    margin: $workflow-margin;
+  }
+}

@@ -1,0 +1,22 @@
+/* Theme Colors */
+/* Responsive Spacing */
+/*
+    font-size Note:
+        All REM values based on the font-size of the font-root (a.k.a. <html> )
+        375px width screen = 14px font
+        768px width screen = 18px font
+        1275px width sceen and up = 23px font 
+*/
+/* Theme Colors */
+/* Responsive Spacing */
+.workflow-section-3 {
+  background: #fff;
+  padding-top: min(60px, 5%);
+  padding-bottom: min(60px, 5%);
+  border-top: 3px solid #f3f5f7;
+}
+.workflow-section-3 .flex-days {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}/*# sourceMappingURL=css.module.css.map */

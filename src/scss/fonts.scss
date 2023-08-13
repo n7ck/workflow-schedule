@@ -1,0 +1,62 @@
+@import "./variables.scss";
+
+/*
+    font-size Note:
+        All REM values based on the font-size of the font-root (a.k.a. <html> )
+        375px width screen = 14px font
+        768px width screen = 18px font
+        1275px width sceen and up = 23px font 
+*/
+@mixin font-root {
+  font-size: min(calc(10.25px + 1vw), 23px);
+  font-family: "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $default;
+}
+
+@mixin font-button {
+  font-size: 1rem;
+  color: $blank;
+  font-weight: 600;
+}
+
+@mixin font-secondary-button {
+  font-size: 1rem;
+  color: $gray-dark;
+  font-weight: 600;
+}
+
+@mixin font-workflow-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+@mixin font-workflow-description {
+  font-size: 1rem;
+  color: $gray-dark;
+  font-weight: 600;
+}
+
+@mixin font-title {
+  font-size: 1rem;
+  color: $blue-4;
+  font-weight: 600;
+}
+
+@mixin font-schedule {
+  color: $default-2;
+  font-weight: 600;
+  @media (min-width: 621px) {
+    font-size: 2.2rem;
+  }
+  @media (max-width: 620px) {
+    font-size: 1.7rem;
+  }
+}
+
+@mixin font-interval {
+  font-size: 2.5rem;
+  color: $blue-2;
+  font-weight: 600;
+}

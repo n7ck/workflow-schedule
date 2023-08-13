@@ -1,0 +1,21 @@
+@import "../../scss/fonts.scss";
+@import "../../scss/variables.scss";
+
+.next-section {
+  display: flex;
+  justify-content: flex-end;
+  padding: $section-padding;
+  border-top: 3px solid $gray-light;
+
+  button {
+    @include font-button;
+    cursor: pointer;
+    border: none;
+    padding: $btn-padding;
+    border-radius: 3px;
+    background: $blue-3;
+    &:hover {
+      background: $blue-2;
+    }
+  }
+}

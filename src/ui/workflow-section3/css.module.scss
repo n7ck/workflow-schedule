@@ -1,0 +1,14 @@
+@import "../../scss/fonts.scss";
+@import "../../scss/variables.scss";
+
+.workflow-section-3 {
+  background: $blank;
+  padding-top: $workflow-padding;
+  padding-bottom: $workflow-padding;
+  border-top: 3px solid $gray-light;
+  .flex-days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+}

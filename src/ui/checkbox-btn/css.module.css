@@ -1,0 +1,43 @@
+/* Theme Colors */
+/* Responsive Spacing */
+/*
+    font-size Note:
+        All REM values based on the font-size of the font-root (a.k.a. <html> )
+        375px width screen = 14px font
+        768px width screen = 18px font
+        1275px width sceen and up = 23px font 
+*/
+.checkbox-btn {
+  display: flex;
+}
+.checkbox-btn input {
+  display: none;
+}
+.checkbox-btn label {
+  font-size: 1rem;
+  color: #747d83;
+  font-weight: 600;
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+  border: 3px solid #f3f5f7;
+}
+.checkbox-btn label > div {
+  margin: auto;
+}
+@media (min-width: 900px) {
+  .checkbox-btn label {
+    width: 90px;
+    height: 76px;
+  }
+}
+@media (max-width: 899px) {
+  .checkbox-btn label {
+    width: 69px;
+    height: 56px;
+  }
+}
+.checkbox-btn input:checked + label {
+  border-color: #63b1e8;
+  color: #19639c;
+}/*# sourceMappingURL=css.module.css.map */

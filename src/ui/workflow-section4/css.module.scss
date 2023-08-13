@@ -1,0 +1,64 @@
+@import "../../scss/fonts.scss";
+@import "../../scss/variables.scss";
+
+.workflow-section-4 {
+  background: $blank;
+  padding-top: $workflow-padding;
+  border-top: 3px solid $gray-light;
+  padding-bottom: $workflow-padding;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: $workflow-padding;
+  .flex-end {
+    align-self: flex-end;
+  }
+}
+.time {
+  @include font-interval;
+}
+.ampm {
+  @include font-workflow-description;
+}
+button {
+  @include font-secondary-button;
+  padding: $btn-padding;
+  border: 3px solid $gray-light;
+  background: $blank;
+  border-radius: 3px;
+}
+
+.slider {
+  appearance: none;
+  width: 100%;
+  height: 3px;
+  background: $gray-light;
+
+  &:hover::-webkit-slider-thumb {
+    opacity: 1;
+  }
+  &:hover::-moz-range-thumb {
+    opacity: 1;
+  }
+
+  &::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: $blue-2;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  &::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: $blue-2;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+}

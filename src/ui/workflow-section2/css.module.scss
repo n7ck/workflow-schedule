@@ -1,0 +1,29 @@
+@import "../../scss/fonts.scss";
+@import "../../scss/variables.scss";
+
+.workflow-section-2 {
+  background: $blank;
+  padding-top: $workflow-padding;
+  padding-bottom: $workflow-padding;
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    .flex-end {
+      align-self: flex-end;
+    }
+  }
+  .interval {
+    @include font-interval;
+  }
+  .days {
+    @include font-workflow-description;
+  }
+  button {
+    @include font-secondary-button;
+    padding: $btn-padding;
+    border: 3px solid $gray-light;
+    background: $blank;
+    border-radius: 3px;
+  }
+}

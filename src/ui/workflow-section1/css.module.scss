@@ -1,0 +1,24 @@
+@import "../../scss/fonts.scss";
+@import "../../scss/variables.scss";
+
+.workflow-section-1 {
+  background: $blank;
+  overflow: auto;
+
+  svg {
+    padding-bottom: $workflow-padding;
+  }
+  .title {
+    @include font-title;
+    margin-bottom: 20px;
+  }
+  .schedule {
+    @include font-schedule;
+    margin-bottom: $workflow-margin;
+    br {
+      @media (max-width: 428px) {
+        display: none;
+      }
+    }
+  }
+}

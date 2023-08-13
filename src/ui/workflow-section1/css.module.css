@@ -1,0 +1,44 @@
+/* Theme Colors */
+/* Responsive Spacing */
+/*
+    font-size Note:
+        All REM values based on the font-size of the font-root (a.k.a. <html> )
+        375px width screen = 14px font
+        768px width screen = 18px font
+        1275px width sceen and up = 23px font 
+*/
+/* Theme Colors */
+/* Responsive Spacing */
+.workflow-section-1 {
+  background: #fff;
+  overflow: auto;
+}
+.workflow-section-1 svg {
+  padding-bottom: min(60px, 5%);
+}
+.workflow-section-1 .title {
+  font-size: 1rem;
+  color: #496e91;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.workflow-section-1 .schedule {
+  color: #414e58;
+  font-weight: 600;
+  margin-bottom: min(67px, 5%);
+}
+@media (min-width: 621px) {
+  .workflow-section-1 .schedule {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 620px) {
+  .workflow-section-1 .schedule {
+    font-size: 1.7rem;
+  }
+}
+@media (max-width: 428px) {
+  .workflow-section-1 .schedule br {
+    display: none;
+  }
+}/*# sourceMappingURL=css.module.css.map */
