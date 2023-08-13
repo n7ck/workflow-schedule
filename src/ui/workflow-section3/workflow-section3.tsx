@@ -1,5 +1,4 @@
 import { ReactNode } from "react";
-import { CheckboxBtn } from "../checkbox-btn/checkbox-btn";
 import { WorkflowDescription } from "../workflow-description/workflow-description";
 import css from "./css.module.css";
 

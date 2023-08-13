@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { WorkflowDescription } from "../workflow-description/workflow-description";
 import css from "./css.module.css";
 
@@ -10,7 +10,6 @@ export const WorkflowSection2 = ({
   setInterval: React.Dispatch<React.SetStateAction<number>>;
 }) => {
   const [notChangable, setNotChangable] = useState(true);
-  const inputRef = useRef<HTMLInputElement>(null);
   const title = "Interval";
   const description = "How often the workflow should run";
 
@@ -25,7 +24,6 @@ export const WorkflowSection2 = ({
             <input
               type="tel"
               disabled={notChangable}
-              ref={inputRef}
               className={css["interval-input"]}
               value={interval || ""}
               onChange={(e) => {
@@ -44,7 +42,6 @@ export const WorkflowSection2 = ({
           className={notChangable ? "" : css["active"]}
           onClick={() => {
             setNotChangable(!notChangable);
-            inputRef.current?.focus();
           }}
         >
           Change

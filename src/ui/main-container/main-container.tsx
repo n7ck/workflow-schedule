@@ -1,4 +1,4 @@
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import css from "./css.module.css";
 import { NextSection } from "../../ui/next-section/next-section";
 import { WorkflowSection1 } from "../workflow-section1/workflow-section1";
